@@ -6,11 +6,12 @@
 a{
     color: #fff;
 }
-.medsos{
-    padding: 5px;
+.row{
+    padding-top: 5px;
     background-color: #e02f3d;
+    font-size: 13px;
 }
-.medsos ul li{
+.row ul li{
     display: inline-block;
     color: #fff;
     margin-right: 20px;
@@ -22,12 +23,12 @@ i{
     border-color: #26215d;
     border-style: solid;
     border-width: 1px;
+    padding: 5px;
+    border-radius: 5px;
 }
-.left{
-    margin: left;
-}
-.right{
-    margin: right;
+.medsos i:hover{
+    background-color: #000;
+    color: #fff;
 }
 body{
     margin: 0px;
@@ -37,8 +38,15 @@ body{
     background-color: hsl(0, 0%, 93%);
     color: #787879;
 }
+.navbar{
+    padding: 0;
+}
+.menu{
+    float: right;
+    margin-right: 20px;
+}
 
-.wrapper{
+/* .wrapper{
     width: 100%;
     margin: auto;
     position: relative;
@@ -250,7 +258,7 @@ h4{
     color: #787879;
     width: 100%;
     line-height: 50px;
-}
+} */
 
 
 
