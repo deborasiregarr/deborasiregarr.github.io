@@ -3,12 +3,14 @@
     margin: 0px;
     padding: 0px;
 }
-a{
+*body{
+    background-color: #ecebeb;
+}
+.sosmed a{
     color: #fff;
 }
 .row{
     padding-top: 5px;
-    background-color: #e02f3d;
     font-size: 13px;
 }
 .row ul li{
@@ -26,7 +28,7 @@ i{
     padding: 5px;
     border-radius: 5px;
 }
-.medsos i:hover{
+.sosmed i:hover{
     background-color: #000;
     color: #fff;
 }
@@ -35,15 +37,68 @@ body{
     padding: 0px;
     border: 50px;
     font-family: 'Roboto', sans-serif;
-    background-color: hsl(0, 0%, 93%);
-    color: #787879;
 }
 .navbar{
     padding: 0;
+    padding-left: 100px;
 }
 .menu{
-    float: right;
     margin-right: 20px;
+    padding-left: 250px;
+    color: #26215d;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+.menu a{
+    color: #26215d;
+}
+.menu a:hover{
+    color: #e02f3d;
+}
+.header{
+    padding: 0;
+}
+.judul{
+    background-color: #ecebeb;
+}
+.produk{
+    background-color: #fff;
+    margin-right: 50px;
+    margin-bottom: 70px; 
+    padding: 30px; 
+}
+.row{
+    background-color: #ecebeb;
+}
+.produk h2{
+    font-weight: bold;
+}
+.produk p{
+    background-color: #26215d;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border: solid;
+    border-color: #26215d;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.product{
+    background-color: #ecebeb;
+}
+.karir{
+    background-color: #e02f3d;
+    padding-top: 0;
+}
+.karir-text{
+    background-color: #fff;
+}
+.karir-text p{
+    font-size: 14px;
+    color: #787879;
+}
+.karir .row{
+    background-color: #e02f3d;
 }
 
 /* .wrapper{
