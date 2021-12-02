@@ -2,6 +2,7 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 *body{
     background-color: #ecebeb;
@@ -10,13 +11,14 @@
     color: #fff;
 }
 .row{
+    background-color: #e02f3d;
     padding-top: 5px;
     font-size: 13px;
 }
 .row ul li{
     display: inline-block;
     color: #fff;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 i{
     font-size: 16px;
@@ -73,15 +75,8 @@ body{
 .produk h2{
     font-weight: bold;
 }
-.produk p{
-    background-color: #26215d;
-    color: #fff;
-    padding: 10px;
-    font-size: 14px;
-    border: solid;
-    border-color: #26215d;
-    border-radius: 4px;
-    font-weight: bold;
+.produk .lanjut{
+    display: inline-block;
 }
 .product{
     background-color: #ecebeb;
@@ -89,16 +84,62 @@ body{
 .karir{
     background-color: #e02f3d;
     padding-top: 0;
+    padding-bottom: 50px;
+}
+.karir h1{
+    font-weight: bold;
+    color: #fff;
 }
 .karir-text{
     background-color: #fff;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.karir-text h5{
+    color: #3e3e3e;
 }
 .karir-text p{
     font-size: 14px;
     color: #787879;
+    text-align: justify;
 }
 .karir .row{
     background-color: #e02f3d;
+}
+.lanjut{
+    background-color: #26215d;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    border: solid;
+    border-color: #26215d;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.lanjut:hover{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+}
+.lanjut a:link, .lanjut a:visited{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+}
+.berita{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+.berita .row{
+    background-color: #fff;
+}
+.berita h1{
+    font-weight: bold;
+    padding-bottom: 30px;
 }
 
 /* .wrapper{
