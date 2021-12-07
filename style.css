@@ -127,6 +127,7 @@ body{
     background-color: #000;
     color: #fff;
     display: inline-block;
+    border-color: #000;
 }
 .lanjut a:link, .lanjut a:visited{
     color: #fff;
