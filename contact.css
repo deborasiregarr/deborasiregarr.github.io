@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "gagalin";
+    src: url('Gagalin-Regular.ttf');
+}
+body{
+    background-color: #c3e0fe;
+}
+.header{
+    background-image: url("bg_blur.jpg");
+}
+.header img{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+.top{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+.rounded-circle{
+    background-color: #c3e0fe;
+}
+.contact{
+    text-transform:capitalize;
+    font-family: gagalin;
+    font-size: 30px;
+    /* border: solid #c3e0fe ;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #c3e0fe; */
+}
+/* .membership{
+    text-transform: uppercase;
+}
+.partner{
+    text-transform: uppercase;
+}
+.grafologi{
+    text-transform: uppercase;
+} */
+p{
+    border: solid;
+    background-color: #c3e0fe;
+    border-radius: 10px;
+    border-color: #c3e0fe;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+.contact p{
+    margin-top: 25px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.contact a{
+    color: #fff;
+}
+.contact a:link{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.contact :hover{
+    color: black;
+    font-family: gagalin;
+}
