@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 30px;
+    background-color: cadetblue;
+    text-decoration: none;   
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-family:sans-serif;
+    color: rgb(12, 4, 51);
+}
+.menu{
+    float: right;
+    margin-right: 15px;
+    font-size: 23px;
+    color: darkblue;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 40px;
+    top: 0;
+    background-color: #fff;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #fff;
+    background-color: rgb(9, 185, 185);
+    border-radius: 5px;
+
+}
+.foto{
+    margin: 10px;
+}

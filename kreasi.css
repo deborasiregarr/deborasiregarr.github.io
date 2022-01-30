@@ -1,0 +1,61 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 30px;
+    background-image: url("bg\ desain.png");
+    text-decoration: none;   
+    font-family: Roboto,sans-serif;
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+nav .logo{
+    width: 100px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.menu{
+    float: right;
+    margin-right: 15px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 23px;
+    color: palevioletred;
+}
+nav{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    line-height: 30px;
+    top: 0;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a{
+    color: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: aliceblue;
+    border-radius: 5px;
+
+}
