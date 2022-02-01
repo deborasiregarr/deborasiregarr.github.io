@@ -4,110 +4,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact_us.css">
+    <link rel="icon" href="foto/logo.png" type="image" sizes="13x13">
     <title>CONTACT US</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></link>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="tophead">
-        <div class="tophead1"></div>
-    </div>
-    <nav>
-        <div class="wrapper">
-            <div class="logo"><img src=" "><a>CONTACT US</a></div>
-            <div class="menu">
+    <!-- sosmed -->
+    <div class="medsos container-fluid bg-danger">
+        <div class="row container-fluid bg-danger">
+            <div class="col-sm-7 p-1 ">
                 <ul>
-                    <li><a href="Index.html">HOME</a></li>
-                    <li><a href="biodata.html">BIODATA</a></li>
-                    <li><a href="contact_us.html">CONCACT US</a></li>
-                    <li><a href="galeri.html">GALERI</a></li>
-                    <li><a href="kreasi.html">KREASI</a></li>
+                    <li><i class="fas fa-location-arrow"></i> Jl. K.H. Moh. Mansyur No. 204 Jakarta 11210</li>
+                    <li><i class="far fa-clock"></i> 08:30 - 16:30 WIB</li>
+                    <li><i class="fas fa-phone-alt"></i></i> (62-21) 6312472</li>
                 </ul>
             </div>
+            <div class="col-sm-1"></div>
+            <div class="sosmed col-sm-4">
+                <ul>
+                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>          
+        </div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid"><img src="foto/LOGO-int.png">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="menu navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">BERANDA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="biodata.html">BIODATA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact_us.html">KONTAK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">GALERI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kreasi.html">KREASI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://fti.unai.edu">FTI UNAI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://unai.edu">Website UNAI</a>
+                </li>
+            </ul>
+          </div>
         </div>
     </nav>
-    <form>
-        <table>
-           <tr>
-                <td>
-                    <label for="nama">Nama Lengkap</label>
-                </td>
-                <td>
-                    :<input type="text" id="nama" name="nama" placeholder="ketik nama lengkap anda"><br>
-                </td> 
-            </tr>
-            <tr>
-                <td>
-                    <label for="email">Email </label>
-                </td>
-                <td>
-                    :<input type="email" id="email" name="email" placeholder="masukkan email anda"><br>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="username">User name </label>
-                </td>
-                <td>
-                    :<input type="text" id="username" name="username" placeholder="ketik username anda"><br>
-                </td> 
-            </tr>
-            <tr>
-                <td>
-                    <label for="password">Password </label>
-                </td>
-                <td>
-                    :<input type="password" id="password" name="password" placeholder="masukkan password anda"><br>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="jenis_kelamin">Jenis kelamin :</label>
-                </td>
-                <td>
-                    <input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki
-                    <input type="radio" name="jenis_kelamin" value="perempuan">Perempuan<br>
-                </td>
-            </tr>
-            <tr>
-                <td><label for="agama">Agama </label> </td>
-                <td>
-                    :<select name="agama">
-                        <option>Pilih Agama</option>
-                        <option>Kristen Protestan</option>
-                        <option>Katolik</option>
-                        <option>Islam</option>
-                        <option>Hindu</option>
-                        <option>Budha</option>
-                    </select><br>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="message">Alamat </label>
-                </td>
-                <td>
-                    :<textarea name="message" rows="10" cols="30">Isi alamat anda di sini
 
-                    </textarea><br>
-                </td>
-            <tr>
-                <td>
-                    <label for="hobby">Hobby </label>  
-                </td>
-                <td>
-                    :<input type="checkbox" id="mendengar_lagu" value="mendengar_lagu">
-                    <label for="mendengar_lagu">Mendengar lagu</label>
-                    <input type="checkbox" id="membaca_novel" value="membaca_novel">
-                    <label for="membaca_novel">Membaca Novel</label>
-                    <input type="checkbox" id="menonton_film" value="menonton_film">
-                    <label for="menonton_film">Menonton Film</label> 
-                </td>
-            </tr>
-        </table>
-        <input type="submit" value="Simpan">
-        <input type="reset">
-    </form>
-        
-    
+    <!-- form -->
+    <div class="container mt-3">
+        <h2>Bootstrap Form Kontak :</h2>
+        <form action="simpan.php">
+            <div class="mb-3 mt-3">
+                <label for="text"><b>Nama Lengkap :</b></label>
+                <input type="text" class="form-control" id="name" placeholder="Masukkan Nama Lengkap Anda" name="name">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="text"><b>Email :</b></label>
+                <label for="email"></label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda" name="email">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="text"><b>Username :</b></label>
+                <input type="text" class="form-control" id="username" placeholder="Masukkan Username Anda" name="username">
+            </div>
+            <div class="mb-3">
+                <label for="text"><b>Password :</b></label>
+                <input type="password" class="form-control" id="password" placeholder="Masukkan Kata Sandi Anda" name="password">
+            </div>
+            <div class="mb-3">
+                <label for="text"><b>Jenis Kelamin :</b></label>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Laki-Laki
+                    <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Perempuan
+                    <label class="form-check-label" for="radio2"></label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="text"><b>Agama :</b></label>
+                <select class="form-select">
+                    <option>Kristen</option>
+                    <option>Islam</option>
+                    <option>Hindu</option>
+                    <option>Budha</option>
+                    <option>Konghucu</option>
+                    <option>Katolik</option>
+                </select> 
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="text"><b>Alamat :</b></label>
+                <textarea class="form-control" rows="5" id="alamat" name="text"></textarea>
+              </div>
+            <div class="mb-3">
+                <label class="text"><b>Hobby :</b></label><br>
+                <input class="form-check-input" type="checkbox" name="hobby1"> Mendengarkan musik
+                <br>
+                <input class="form-check-input" type="checkbox" name="hobby2"> Membaca Novel<br>
+                <input class="form-check-input" type="checkbox" name="hobby3"> Menonton Film
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer container-fluid bg-dark p-3 mt-5">
+        <div class="row bg-dark p-5">
+            <div class="tentang col-sm-4">
+                <h5>Tentang Kami</h5>
+                <img src="foto/LOGO-intbr.png" width="178" height="100">
+                <p><b>PT. PLUIT MAKMUR LESTARI</b><br> merupakan perusahaan swasta yang berdiri sejak Tahun 1976 (43 Tahun) bergerak dibidang Manufaktur Pipa Polyvinyl Chloride (PVC), High Density PolyEthylene (HDPE), Polypropylene (PP-R) &amp; Aksesoris Lengkap.</p>
+            </div>
+            <div class="kontak col-sm-4">
+                <h5>Kontak Kami</h5>
+                <div class="info p-2"></div>
+                <ul>
+                    <li><i class="fas fa-location-arrow"></i> Jl. K.H. Moh. Mansyur No. 204 Jakarta 11210</li><br>
+                    <li><i class="fas fa-phone-alt"></i></i> (62-21) 6312472 (HUNTING)</li>
+                    <li><i class="fal fa-fax"></i>(62-21) 6311489</li><br>
+                    <li><i class="far fa-clock"></i> 08:30 - 16:30 WIB</li><br>
+                    <li><i class="fas fa-envelope"></i> info@intilon.co.id</li>
+                </ul>
+            </div>
+            <div class="maps col-sm-4">
+                <h5>Temukan Kami Di Google Map</h5>
+                <iframe src="https://g.page/Intilon?share" width="100%" height="250px"  frameborder=”0″ style=”border:0″ allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

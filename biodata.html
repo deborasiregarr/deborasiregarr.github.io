@@ -4,40 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="biodata.css">
-    <title>Biodata</title>
+    <link rel="icon" href="foto/logo.png" type="image" sizes="13x13">
+    <title>BIODATA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></link>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="tophead">
-        <div class="tophead1"></div>
-    </div>
-    <nav>
-        <div class="wrapper">
-            <div class="logo"><img src=" "><a>BIODATA</a></div>
-            <div class="menu">
+    <!-- sosmed -->
+    <div class="medsos container-fluid bg-danger">
+        <div class="row container-fluid bg-danger">
+            <!-- <div class="col-sm-7 p-1 ">
                 <ul>
-                    <li><a href="Index.html">HOME</a></li>
-                    <li><a href="biodata.html">BIODATA</a></li>
-                    <li><a href="contact_us.html">CONCACT US</a></li>
-                    <li><a href="galeri.html">GALERI</a></li>
-                    <li><a href="kreasi.html">KREASI</a></li>
+                    <li><i class="fas fa-location-arrow"></i> Jl. K.H. Moh. Mansyur No. 204 Jakarta 11210</li>
+                    <li><i class="far fa-clock"></i> 08:30 - 16:30 WIB</li>
+                    <li><i class="fas fa-phone-alt"></i></i> (62-21) 6312472</li>
                 </ul>
             </div>
+            <div class="col-sm-2"></div> -->
+            <div class="sosmed col-sm-12 p-1">
+                <ul>
+                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>          
+        </div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid"><img src="foto/LOGO-int.png">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="menu navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">BERANDA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="biodata.html">BIODATA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact_us.html">KONTAK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">GALERI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kreasi.html">KREASI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://fti.unai.edu">FTI UNAI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://unai.edu">Website UNAI</a>
+                </li>
+            </ul>
+          </div>
         </div>
     </nav>
-    <pre class="biodata">
-        Nama Lengkap         : Debora Oktavia
-        NIM                  : 2081002
-        Jurusan              : Teknik Informatika
-        Jenis Kelamin        : Perempuan
-        Tempat/Tanggal Lahir : Jambi, 4 Oktober 2002
-        Alamat               : Jambi
-    </pre>
-    <div class="foto">
-        <img src="foto pribadi.jpg"  width="300px">
-    </div>
-    
 
+    <!-- BIODATA -->
+    <div class="biodata container-fluid row  p-5">
+        <h2><em><b>Biodata</b></em></h2>
+        <div class="col-sm-1"></div>
+        <div class="card col-sm-4 p-3">
+            <img src="foto/IMG20201224120512 (1).jpg" width="100%">
+            <div class="card-body">
+                <h4 class="card-title">Debora Oktavia</h4>
+                <p class="card-text">Hello everyone, I am a level 2 student majoring in Informatics Engineering at the Adventist University of Indonesia</p>
+                <a href="#" class="btn btn-danger">Back to top</a>
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="card col-sm-4 p-3">
+            <div class="card-body">
+                <h4 class="card-title">Debora Oktavia</h4>
+                <p class="card-text">Hello everyone, I am a level 2 student majoring in Informatics Engineering at the Adventist University of Indonesia</p>
+                <a href="#bottom" class="btn btn-danger">Back to bottom</a>
+            </div>
+            <img src="foto/IMG20201224120512 (1).jpg" width="100%" id="bottom">
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer container-fluid bg-dark p-5">
+        <div class="row bg-dark p-5">
+            <div class="tentang col-sm-4">
+                <h5>Tentang Kami</h5>
+                <img src="foto/LOGO-intbr.png" width="178" height="100">
+                <p><b>PT. PLUIT MAKMUR LESTARI</b><br> merupakan perusahaan swasta yang berdiri sejak Tahun 1976 (43 Tahun) bergerak dibidang Manufaktur Pipa Polyvinyl Chloride (PVC), High Density PolyEthylene (HDPE), Polypropylene (PP-R) &amp; Aksesoris Lengkap.</p>
+            </div>
+            <div class="kontak col-sm-4">
+                <h5>Kontak Kami</h5>
+                <div class="info p-2"></div>
+                <ul>
+                    <li><i class="fas fa-location-arrow"></i> Jl. K.H. Moh. Mansyur No. 204 Jakarta 11210</li><br>
+                    <li><i class="fas fa-phone-alt"></i></i> (62-21) 6312472 (HUNTING)</li>
+                    <li><i class="fal fa-fax"></i>(62-21) 6311489</li><br>
+                    <li><i class="far fa-clock"></i> 08:30 - 16:30 WIB</li><br>
+                    <li><i class="fas fa-envelope"></i> info@intilon.co.id</li>
+                </ul>
+            </div>
+            <div class="maps col-sm-4">
+                <h5>Temukan Kami Di Google Map</h5>
+                <iframe src="https://g.page/Intilon?share" width="100%" height="250px"  frameborder=”0″ style=”border:0″ allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
